@@ -1,2 +1,85 @@
-Open It Full In Desktop Mode
-​<p></p><div class="main" style="background: rgb(247, 247, 252); border-bottom-left-radius: 0px; border-top-left-radius: 0px; box-sizing: border-box; color: #495057; display: flex; flex-direction: column; font-family: Arial; font-size: 13px; min-height: 100vh; min-width: 0px; overflow: hidden; transition: margin-left 0.35s ease-in-out 0s, left 0.35s ease-in-out 0s, margin-right 0.35s ease-in-out 0s, right 0.35s ease-in-out 0s; width: 100%;"><div class="col-4 offset-4" id="search" style="box-sizing: border-box; flex: 0 0 auto; margin-left: 1.664px; width: 1.664px;"><br /><table class="table table-responsive text-center" style="--bs-table-accent-bg: transparent; --bs-table-active-bg: rgba(0,0,0,0.1); --bs-table-active-color: #495057; --bs-table-bg: transparent; --bs-table-hover-bg: rgba(0,0,0,0.0375); --bs-table-hover-color: #495057; --bs-table-striped-bg: #f8f9fa; --bs-table-striped-color: #495057; border-collapse: collapse; border-color: rgb(222, 226, 230); border-spacing: 0px; caption-side: bottom; color: #495057; margin-bottom: 1rem; overflow-x: auto; padding-left: 6px; vertical-align: top; width: 482px;"><tbody style="border: 0px solid rgb(222, 226, 230); box-sizing: border-box; vertical-align: inherit;"><tr style="border: 0px solid rgb(222, 226, 230); box-sizing: border-box;"><td class="text-center" colspan="2" style="background-color: var(--bs-table-bg); background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid; border-width: 0px 0px 1px; box-sizing: border-box; padding: 0.75rem; vertical-align: middle;"><img src="https://jkbose.nic.in/results/img/bannern.png" style="box-sizing: border-box; vertical-align: middle;" /></td></tr><tr style="border: 0px solid rgb(222, 226, 230); box-sizing: border-box;"><td class="text-right font-weight-bold" style="background-color: var(--bs-table-bg); background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid; border-width: 0px 0px 1px; box-sizing: border-box; font-weight: 600; padding: 0.75rem; text-align: right; vertical-align: middle;">Enter Roll No</td><td style="background-color: var(--bs-table-bg); background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid; border-width: 0px 0px 1px; box-sizing: border-box; padding: 0.75rem; vertical-align: middle;"><input class="form-control" id="txtrollno" maxlength="10" name="txtrollno" style="appearance: none; background-clip: padding-box; background-color: white; border-color: rgb(206, 212, 218); border-radius: 0.2rem; border-style: solid; border-width: 1px; color: #495057; display: block; font-family: inherit; font-size: 0.875rem; font-weight: 400; line-height: 1.5; margin: 0px; min-height: calc(1.8125rem + 2px); overflow: visible; padding: 0.25rem 0.7rem; transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; width: 255.664px;" tabindex="1" type="text" /><span id="RegularExpressionValidator2" style="box-sizing: border-box; visibility: hidden;"></span></td></tr><tr style="border: 0px solid rgb(222, 226, 230); box-sizing: border-box;"><td class="text-right font-weight-bold" style="background-color: var(--bs-table-bg); background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid; border-width: 0px 0px 1px; box-sizing: border-box; font-weight: 600; padding: 0.75rem; text-align: right; vertical-align: middle;"><h2><span style="font-size: xx-large;">Or</span></h2><br /><span style="font-size: x-large;">Name</span><br /><br /><br />&nbsp;<br /><br /></td><td style="background-color: var(--bs-table-bg); background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid; border-width: 0px 0px 1px; box-sizing: border-box; padding: 0.75rem; vertical-align: middle;"><input class="form-control" id="txtregno" maxlength="25" name="txtregno" style="appearance: none; background-clip: padding-box; background-color: white; border-color: rgb(206, 212, 218); border-radius: 0.2rem; border-style: solid; border-width: 1px; color: #495057; display: block; font-family: inherit; font-size: 0.875rem; font-weight: 400; line-height: 1.5; margin: 0px; min-height: calc(1.8125rem + 2px); overflow: visible; padding: 0.25rem 0.7rem; transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; width: 100%;" tabindex="1" type="text" /></td></tr><tr style="border: 0px solid rgb(222, 226, 230); box-sizing: border-box;"><td style="background-color: var(--bs-table-bg); background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid; border-width: 0px 0px 1px; box-sizing: border-box; padding: 0.75rem; vertical-align: middle;"></td><td class="centeralign" style="background-color: var(--bs-table-bg); background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid; border-width: 0px 0px 1px; box-sizing: border-box; padding: 0.75rem; text-align: center; vertical-align: middle;"><h2 style="color: black; font-family: &quot;Times New Roman&quot;; text-align: left;"><b><span style="font-family: inherit; font-size: medium;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://media.tenor.com/_op8TQ0PJ4UAAAAC/kaisa-laga-mera-najak-kaisa.gif" style="background-color: #3d85c6;" target="_blank">Submit</a></span></b></h2></td></tr></tbody></table></div></div>
+
+​<p>Open It Full In Desktop Mode</p>
+<div class="main" style="background: rgb(247, 247, 252); 
+border-bottom-left-radius: 0px;
+border-top-left-radius: 0px;
+box-sizing: border-box; 
+color: #495057; 
+display: flex; flex-direction: column; 
+font-family: Arial; 
+font-size: 13px; 
+min-height: 100vh;
+min-width: 0px; overflow: hidden;
+transition: margin-left 0.35s ease-in-out 0s, left 0.35s ease-in-out 0s, margin-right 0.35s ease-in-out 0s, right 0.35s ease-in-out 0s; width: 100%;">
+<div class="col-4 offset-4" id="search" style="box-sizing: border-box; 
+flex: 0 0 auto; 
+margin-left: 1.664px;
+width: 1.664px;">
+<br/>
+<table class="table table-responsive text-center" style="
+--bs-table-accent-bg: transparent; --bs-table-active-bg: rgba(0,0,0,0.1);
+--bs-table-active-color: #495057;
+--bs-table-bg: transparent; 
+--bs-table-hover-bg: rgba(0,0,0,0.0375); 
+--bs-table-hover-color: #495057; 
+--bs-table-striped-bg: #f8f9fa; 
+--bs-table-striped-color: #495057;
+border-collapse: collapse;
+border-color: rgb(222, 226, 230);
+border-spacing: 0px; 
+caption-side: bottom;
+color: #495057;
+margin-bottom: 1rem; 
+overflow-x: auto; 
+padding-left: 6px; 
+vertical-align: top; 
+width: 482px;">
+<tbody style="border: 0px solid rgb(222, 226, 230); 
+box-sizing: border-box;
+vertical-align: inherit;">
+<tr style="border: 0px solid rgb(222, 226, 230); box-sizing: border-box;">
+<td class="text-center" colspan="2" style="background-color: var(--bs-table-bg); 
+background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); 
+border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid;
+border-width: 0px 0px 1px; box-sizing: border-box; padding: 0.75rem; vertical-align: middle;">
+<img src="https://jkbose.nic.in/results/img/bannern.png" style="box-sizing: border-box; vertical-align: middle;" />
+</td></tr><tr style="border: 0px solid rgb(222, 226, 230); box-sizing: border-box;">
+<td class="text-right font-weight-bold" style="background-color: var(--bs-table-bg); background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid; 
+border-width: 0px 0px 1px; box-sizing: border-box; font-weight: 600; padding: 0.75rem; text-align: right; vertical-align: middle;">Enter Roll No</td>
+
+<td style="background-color: var(--bs-table-bg); 
+background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid;
+border-width: 0px 0px 1px; box-sizing: border-box; padding: 0.75rem; 
+
+vertical-align: middle;"><input class="form-control" id="txtrollno" maxlength="10" name="txtrollno" style="appearance: none; 
+background-clip: padding-box; background-color: white; border-color: rgb(206, 212, 218); border-radius: 0.2rem; border-style: solid; border-width: 1px; color: #495057; display: block; font-family: inherit; font-size: 0.875rem; font-weight: 400; line-height: 1.5; margin: 0px; min-height: calc(1.8125rem + 2px); 
+overflow: visible; padding: 0.25rem 0.7rem; transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; width: 255.664px;" tabindex="1" type="text" />
+
+<span id="RegularExpressionValidator2" style="box-sizing: border-box; visibility: hidden;"></span></td></tr><tr style="border: 0px solid rgb(222, 226, 230); box-sizing: border-box;">
+
+<td class="text-right font-weight-bold" style="background-color: var(--bs-table-bg); 
+background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid; border-width: 0px 0px 1px; box-sizing: border-box; font-weight: 600; padding: 0.75rem; text-align: right; vertical-align: middle;"><h2><span style="font-size: xx-large;">Or</span></h2><br /><span style="font-size: x-large;">Name</span><br /><br /><br />&nbsp;<br /><br /></td><td style="background-color: var(--bs-table-bg); background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; 
+border-color: rgb(222, 226, 230); border-image: initial; border-style: solid; border-width: 0px 0px 1px; box-sizing: border-box; padding: 0.75rem; vertical-align: middle;">
+
+<input class="form-control" id="txtregno" maxlength="25" name="txtregno" style="appearance: none; background-clip: padding-box; background-color: white; border-color: rgb(206, 212, 218); border-radius: 0.2rem; border-style: solid;
+border-width: 1px; color: #495057; display: block; font-family: inherit; font-size: 0.875rem; font-weight: 400; line-height: 1.5; margin: 0px; min-height: calc(1.8125rem + 2px); overflow: visible; padding: 0.25rem 0.7rem; transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; width: 100%;" tabindex="1" type="text" />
+
+</td>
+</tr>
+
+<tr style="border: 0px solid rgb(222, 226, 230); box-sizing: border-box;">
+<td style="background-color: var(--bs-table-bg); background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid; border-width: 0px 0px 1px; box-sizing: border-box; padding: 0.75rem; vertical-align: middle;"></td><td class="centeralign" style="background-color: var(--bs-table-bg); background-image: linear-gradient(var(--bs-table-accent-bg),var(--bs-table-accent-bg)); border-collapse: collapse; border-color: rgb(222, 226, 230); border-image: initial; border-style: solid; 
+border-width: 0px 0px 1px; box-sizing: border-box; 
+padding: 0.75rem; text-align: center; vertical-align: middle;"><h2 style="color: black; 
+font-family: &quot;Times New Roman&quot;; text-align: left;"><b><span style="font-family: inherit; 
+font-size: medium;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<a href="https://media.tenor.com/_op8TQ0PJ4UAAAAC/kaisa-laga-mera-najak-kaisa.gif" style="background-color: #3d85c6;" target="_blank">Submit</a>
+</span>
+</b>
+</h2>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
