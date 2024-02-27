@@ -19,6 +19,9 @@ body {
     padding: 20px;
     width: 90%;
     max-width: 500px; /* Adjust maximum width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
 }
 
 img {
@@ -28,12 +31,14 @@ img {
 
 .form-group {
     margin-bottom: 15px;
+    width: 100%;
 }
 
 label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    text-align: center; /* Center labels */
 }
 
 input[type="text"] {
@@ -42,10 +47,10 @@ input[type="text"] {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    box-sizing: border-box; /* Ensure input box size includes padding */
 }
 
 button {
-    display: block;
     width: 100%;
     padding: 10px;
     font-size: 16px;
