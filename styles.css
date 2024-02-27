@@ -6,8 +6,6 @@ body {
 
 .main {
     background: rgb(247, 247, 252);
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 0px;
     box-sizing: border-box;
     color: #495057;
     display: flex;
@@ -15,39 +13,27 @@ body {
     font-family: Arial;
     font-size: 13px;
     min-height: 100vh;
-    min-width: 0px;
     overflow: hidden;
     transition: margin-left 0.35s ease-in-out 0s, left 0.35s ease-in-out 0s, margin-right 0.35s ease-in-out 0s, right 0.35s ease-in-out 0s;
     width: 100%;
 }
 
-.col-4 {
-    width: 25%;
-}
-
-.offset-4 {
-    margin-left: 33.33%;
+#search {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .table {
-    --bs-table-accent-bg: transparent;
-    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-    --bs-table-active-color: #495057;
-    --bs-table-bg: transparent;
-    --bs-table-hover-bg: rgba(0, 0, 0, 0.0375);
-    --bs-table-hover-color: #495057;
-    --bs-table-striped-bg: #f8f9fa;
-    --bs-table-striped-color: #495057;
+    width: 100%;
     border-collapse: collapse;
     border-color: rgb(222, 226, 230);
     border-spacing: 0px;
-    caption-side: bottom;
     color: #495057;
     margin-bottom: 1rem;
     overflow-x: auto;
     padding-left: 6px;
     vertical-align: top;
-    width: 482px;
 }
 
 .text-center {
@@ -64,4 +50,13 @@ body {
 
 .centeralign {
     text-align: center;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 0.2rem;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
 }
