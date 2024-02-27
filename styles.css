@@ -48,6 +48,18 @@ h2 {
     text-align: center;
 }
 
+#captchaContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#captchaContainer img {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+}
+
+
 .submit-btn {
     background-color: #3d85c6;
     color: #fff;
