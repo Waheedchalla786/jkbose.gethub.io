@@ -6,7 +6,7 @@ If you find this prank amusing or helpful, consider giving it a star to show you
 
 ## Credit
 
-This prank website was created by [user](insert_username_here).
+This prank website was created by [user](https://github.com/Waheedchalla786).
 
 ## Follow Us
 
