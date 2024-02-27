@@ -1,67 +1,67 @@
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
 
 .main {
     background: rgb(247, 247, 252);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.form-container {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 90%;
-    max-width: 500px; /* Adjust maximum width as needed */
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    box-sizing: border-box;
+    color: #495057;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally */
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.form-group {
-    margin-bottom: 15px;
+    font-family: Arial;
+    font-size: 13px;
+    min-height: 100vh;
+    min-width: 0px;
+    overflow: hidden;
+    transition: margin-left 0.35s ease-in-out 0s, left 0.35s ease-in-out 0s, margin-right 0.35s ease-in-out 0s, right 0.35s ease-in-out 0s;
     width: 100%;
 }
 
-label {
-    display: block;
+.col-4 {
+    width: 25%;
+}
+
+.offset-4 {
+    margin-left: 33.33%;
+}
+
+.table {
+    --bs-table-accent-bg: transparent;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-active-color: #495057;
+    --bs-table-bg: transparent;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.0375);
+    --bs-table-hover-color: #495057;
+    --bs-table-striped-bg: #f8f9fa;
+    --bs-table-striped-color: #495057;
+    border-collapse: collapse;
+    border-color: rgb(222, 226, 230);
+    border-spacing: 0px;
+    caption-side: bottom;
+    color: #495057;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    padding-left: 6px;
+    vertical-align: top;
+    width: 482px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.font-weight-bold {
     font-weight: bold;
-    margin-bottom: 5px;
-    text-align: center; /* Center labels */
 }
 
-input[type="text"] {
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; /* Ensure input box size includes padding */
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #0056b3;
+.centeralign {
+    text-align: center;
 }
