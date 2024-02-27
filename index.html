@@ -8,22 +8,46 @@
 </head>
 <body>
     <div class="main">
-        <div class="form-container">
-            <img src="https://jkbose.nic.in/results/img/bannern.png" alt="JKBOSE Logo">
-            <form id="searchForm">
-                <div class="form-group">
-                    <label for="txtrollno">Enter Roll No</label>
-                    <input class="form-control" id="txtrollno" maxlength="10" name="txtrollno" type="text">
-                </div>
-                <centre>
-                <h2>OR</h2></centre>
-                <div class="form-group">
-                    <label for="txtregno">Name</label>
-                    <input class="form-control" id="txtregno" maxlength="25" name="txtregno" type="text">
-                </div>
-             <button type="submit">  <a href="https://media.tenor.com/_op8TQ0PJ4UAAAAC/kaisa-laga-mera-najak-kaisa.gif" style="color: inherit; text-decoration: none;">Submit</a></button>
-            </form>
+        <div class="col-4 offset-4" id="search">
+            <br>
+            <table class="table table-responsive text-center">
+                <tbody>
+                    <tr>
+                        <td class="text-center" colspan="2">
+                            <img src="https://jkbose.nic.in/results/img/bannern.png" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-right font-weight-bold">Enter Roll No</td>
+                        <td>
+                            <input class="form-control" id="txtrollno" maxlength="10" name="txtrollno" type="text"/>
+                            <span id="RegularExpressionValidator2"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-right font-weight-bold">
+                            <h2><span>Or</span></h2><br /><span>Name</span><br /><br /><br />&nbsp;<br /><br />
+                        </td>
+                        <td>
+                            <input class="form-control" id="txtregno" maxlength="25" name="txtregno" type="text"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="centeralign">
+                            <h2>
+                                <b>
+                                    <span>
+                                        <a href="https://media.tenor.com/_op8TQ0PJ4UAAAAC/kaisa-laga-mera-najak-kaisa.gif" target="_blank">Submit</a>
+                                    </span>
+                                </b>
+                            </h2>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
