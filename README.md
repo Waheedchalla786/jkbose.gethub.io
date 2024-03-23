@@ -5,7 +5,7 @@ This website is a prank designed for students, offering fake results in a humoro
 If you find this prank amusing or helpful, consider giving it a star to show your appreciation!
 
 ## Demo
-![Alt text](relative/path/to/jkbose.png)
+![Image Preview](jkbose.png)
 
 ## Credit
 
