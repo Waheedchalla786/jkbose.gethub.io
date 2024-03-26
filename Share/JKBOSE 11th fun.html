@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JKBOSE 11th Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(247, 247, 252);
+            color: #495057;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .message {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .link {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            Jammu and Kashmir Board of School Education, JKBOSE 11th Result <span id="date"></span> for Jammu and Kashmir Division's has been declared. 
+            <br>Search By <a href="https://jkbose.pages.dev/JKBOSE%20Class%2011th%20Results" class="link">Roll No/Name</a>
+        </div>
+    </div>
+    
+    <script>
+        // Get the current date
+        const currentDate = new Date();
+        
+        // Format the date as desired
+        const formattedDate = currentDate.toDateString(); // Adjust as needed
+        
+        // Set the formatted date to the element with id "date"
+        document.getElementById("date").textContent = formattedDate;
+    </script>
+</body>
+</html>
