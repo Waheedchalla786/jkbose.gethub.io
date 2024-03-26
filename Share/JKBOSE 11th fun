@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JKBOSE 12th Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(247, 247, 252);
+            color: #495057;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .disclaimer {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        
+        .gif {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        
+        .share-button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="kaisa-laga-mera-najak-kaisa-ezgif.com-added-text.gif" alt="GIF" class="gif">
+        <div class="disclaimer">This was just only for fun, 🤣🤣 Don't be serious now share this to your friends</div>
+        
+        <button class="share-button" onclick="shareText()">Share Prank</button>
+    </div>
+    
+    <script>
+        // Function to share the message
+        function shareText() {
+            const message = "Jammu and Kashmir Board of School Education, JKBOSE 12th Result for Jammu and Kashmir Division's has been declared. Search By Roll No/Name";
+            const url = "https://jkbose.pages.dev/JKBOSE%20Class%2012th%20Results"; // Adjust URL as needed
+            const shareText = message + "\n" + "Search By: " + url;
+            
+            // Using the Web Share API to share the message
+            if (navigator.share) {
+                navigator.share({
+                    title: "JKBOSE 11th Result",
+                    text: shareText
+                }).then(() => {
+                    console.log("Message shared successfully!");
+                }).catch((error) => {
+                    console.error("Error sharing message:", error);
+                });
+            } else {
+                alert("Web Share API is not supported in this browser. You can manually copy the message and share it.");
+            }
+        }
+    </script>
+</body>
+</html>
