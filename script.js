@@ -12,7 +12,7 @@ function validateCaptcha() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    const resultHeader = document.getElementById("resultHeader");
+    const yearElement = document.getElementById("year");
     const currentYear = new Date().getFullYear();
-    resultHeader.textContent = "Results of secondary school examination " + currentYear + " (Class 10th)";
+    yearElement.textContent = currentYear;
 });
