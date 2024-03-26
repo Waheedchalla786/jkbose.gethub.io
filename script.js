@@ -10,7 +10,7 @@ function validateCaptcha() {
         alert("Incorrect captcha. Please try again."); // If no match, show error message
     }
 }
-
+ 
 document.addEventListener("DOMContentLoaded", function() {
     const yearElement = document.getElementById("year");
     const currentYear = new Date().getFullYear();
