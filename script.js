@@ -14,5 +14,5 @@ function validateCaptcha() {
 document.addEventListener("DOMContentLoaded", function() {
     const resultHeader = document.getElementById("resultHeader");
     const currentYear = new Date().getFullYear();
-    resultHeader.textContent += " (" + currentYear + ")";
+    resultHeader.textContent = "Results of secondary school examination " + currentYear + " (Class 10th)";
 });
