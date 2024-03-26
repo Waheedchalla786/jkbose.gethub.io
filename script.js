@@ -10,3 +10,9 @@ function validateCaptcha() {
         alert("Incorrect captcha. Please try again."); // If no match, show error message
     }
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const resultHeader = document.getElementById("resultHeader");
+    const currentDate = new Date().toDateString();
+    resultHeader.textContent += " (" + currentDate + ")";
+});
