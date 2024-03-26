@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JKBOSE 11th Result</title>
+    <title>JKBOSE 11th Result Fun</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -32,14 +32,25 @@
         .link:hover {
             text-decoration: underline;
         }
+        
+        .share-button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="message">
+        <div class="message" id="message">
             Jammu and Kashmir Board of School Education, JKBOSE 11th Result <span id="date"></span> for Jammu and Kashmir Division's has been declared. 
             <br>Search By <a href="https://jkbose.pages.dev/JKBOSE%20Class%2011th%20Results" class="link">Roll No/Name</a>
         </div>
+        <button class="share-button" onclick="shareText()">Share Message</button>
     </div>
     
     <script>
@@ -51,6 +62,27 @@
         
         // Set the formatted date to the element with id "date"
         document.getElementById("date").textContent = formattedDate;
+        
+        // Function to share the message
+        function shareText() {
+            const message = document.getElementById("message").textContent;
+            const url = "https://jkbose.pages.dev/JKBOSE%20Class%2011th%20Results"; // Adjust URL as needed
+            const shareText = message + "\n" + "Search By: " + url;
+            
+            // Using the Web Share API to share the message
+            if (navigator.share) {
+                navigator.share({
+                    title: "JKBOSE 11th Result",
+                    text: shareText
+                }).then(() => {
+                    console.log("Message shared successfully!");
+                }).catch((error) => {
+                    console.error("Error sharing message:", error);
+                });
+            } else {
+                alert("Web Share API is not supported in this browser. You can manually copy the message and share it.");
+            }
+        }
     </script>
 </body>
 </html>
