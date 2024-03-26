@@ -5,6 +5,13 @@ body {
     background: rgb(247, 247, 252);
     color: #495057;
 }
+  .header {
+    background-color: rgba(128, 0, 0, 0.5); /* Dim red background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+  }
 
 .container {
     display: flex;
