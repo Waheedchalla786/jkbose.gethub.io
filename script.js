@@ -13,6 +13,6 @@ function validateCaptcha() {
 
 document.addEventListener("DOMContentLoaded", function() {
     const resultHeader = document.getElementById("resultHeader");
-    const currentDate = new Date().toDateString();
-    resultHeader.textContent += " (" + currentDate + ")";
+    const currentYear = new Date().getFullYear();
+    resultHeader.textContent += " (" + currentYear + ")";
 });
