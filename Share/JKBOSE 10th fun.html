@@ -56,8 +56,12 @@
     <script>
         // Function to share the message
         function shareText() {
-            const message = "Jammu and Kashmir Board of School Education, JKBOSE 10th Result for Jammu and Kashmir Division's has been declared. Search By Roll No/Name";
-            const url = "https://jkbose.pages.dev/JKBOSE%20Class%2010th%20Results"; // Adjust URL as needed
+            const currentDate = new Date();
+            const day = currentDate.getDate();
+            const month = currentDate.toLocaleString('default', { month: 'long' });
+            const year = currentDate.getFullYear();
+            const message = `Jammu and Kashmir Board of School Education, JKBOSE 10th Result for Jammu and Kashmir Division's has been declared on ${day} ${month} ${year}. Search By Roll No/Name`;
+            const url = "https://jkbose.pages.dev/JKBOSE_Class_10th_Results"; // Adjust URL as needed
             const shareText = message + "\n" + "Search By: " + url;
             
             // Using the Web Share API to share the message
