@@ -21,12 +21,9 @@
         .disclaimer {
             font-style: italic;
             margin-bottom: 10px;
-        }
-        
-        .gif {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Dim black background */
+            color: #ffffff; /* White text color */
+            padding: 10px; /* Add padding for better readability */
         }
         
         .share-button {
@@ -38,11 +35,18 @@
             border-radius: 5px;
             cursor: pointer;
         }
+        
+        .gif {
+            width: 100%; /* Full width */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Ensure it spans the full width */
+            margin-bottom: 20px; /* Add some margin at the bottom */
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="kaisa-laga-mara-najak-kaisa-ezgif.com-added-text.gif" alt="GIF" class="gif">
+        <iframe src="https://jkbose.pages.dev/kaisa-laga-mera-najak-kaisa-ezgif.com-added-text.gif" class="gif" frameborder="0" allowfullscreen></iframe>
         <div class="disclaimer">This was just only for fun, 🤣🤣 Don't be serious now share this to your friends</div>
         <button class="share-button" onclick="shareText()">Share Message</button>
     </div>
@@ -57,7 +61,7 @@
             // Using the Web Share API to share the message
             if (navigator.share) {
                 navigator.share({
-                    title: "JKBOSE 11th Result",
+                    title: "JKBOSE 10th Result",
                     text: shareText
                 }).then(() => {
                     console.log("Message shared successfully!");
